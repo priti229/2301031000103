@@ -1,0 +1,338 @@
+
+/* Add font files for Inria Serif */
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('fonts/inria-serif.woff2') format('woff2'),
+         url('fonts/inria-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  :root {
+    --font-family-inria-serif: 'Inria Serif', sans-serif;
+    --font-family-inter: 'Inter', sans-serif;
+    --text-black: rgba(0, 0, 0, 1);
+  }
+  
+  .text-black {
+    color: var(--text-black);
+  }
+  
+  
+  /* CSS Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .avatars-3d_avatar_17-3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .avatar-3d-avatars-17-2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .text-4 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 36px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-5 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 16px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .icon-7 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    fill: rgba(29, 27, 32, 1);
+    border: none;
+    outline: none;
+  }
+  
+  .notifications-6 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .rectangle-24-8 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: none;
+    outline: none;
+  }
+  
+  .image-9 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 20px;
+  }
+  
+  .text-10 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inter);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .node-11 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .videocam-12 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .rectangle-31-13 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  }
+  
+  .image-14 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-15 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inter);
+    font-weight: Regular;
+    font-size: 14px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-33-16 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    fill: rgba(253, 232, 232, 1);
+    border: none;
+    outline: none;
+  }
+  
+  .text-17 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inter);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-34-18 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  }
+  
+  .rectangle-35-19 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  }
+  
+  .image-20 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-21 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-22 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 16px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-23 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 16px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-24 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 16px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-36-25 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(252, 214, 214, 1);
+    border-radius: 20px;
+  }
+  
+  .icon-27 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    fill: rgba(29, 27, 32, 1);
+    border: none;
+    outline: none;
+  }
+  
+  .videocam-26 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .text-28 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 15px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-29 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 15px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .iphone-16-pro-8-1 {
+  @media (max-width: 1440px) {
+    .iphone-16-pro-8-1 {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .iphone-16-pro-8-1 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  

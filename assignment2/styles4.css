@@ -1,0 +1,592 @@
+
+/* Add font files for Inria Serif */
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('fonts/inria-serif.woff2') format('woff2'),
+         url('fonts/inria-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  :root {
+    --font-family-inria-serif: 'Inria Serif', sans-serif;
+    --text-black: rgba(0, 0, 0, 1);
+  }
+  
+  .text-black {
+    color: var(--text-black);
+  }
+  
+  
+  /* CSS Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rectangle-13-2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .rectangle-8-3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .rectangle-21-4 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-5 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-7 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .group-1-6 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  
+  .text-8 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-9 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-10 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 32px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-6-11 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(168, 164, 164, 1);
+    border-radius: 100px;
+  }
+  
+  .text-12 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 20px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-12-13 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-14 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-16-15 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .rectangle-14-16 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-17 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-17-18 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+  }
+  
+  .text-19 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid rgba(0, 0, 0, 0.30000001192092896);
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-22-20 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-21 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-22 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .node-23 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .node-24 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+  }
+   
+  .node-1f60a-25 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .node-26 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .rectangle-23-27 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-28 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-24-29 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-30 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-31 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-25-32 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .rectangle-26-33 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-34 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-35 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-27-36 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-37 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-28-38 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .rectangle-29-39 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-40 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-41 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-30-42 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-43 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-22-44 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(188, 151, 183, 0.9900000095367432);
+    border-radius: 20px;
+  }
+  
+  .text-45 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 16px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .rectangle-8-46 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(253, 232, 232, 1);
+    border-radius: 100px;
+  }
+  
+  .text-47 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 24px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .text-48 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: var(--font-family-inria-serif);
+    font-weight: Regular;
+    font-size: 20px;
+    letter-spacing: 0percent;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: original;
+    color: var(--text-black);
+  }
+  
+  .node-49 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .rectangle-25-50 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+  }
+  
+  .iphone-16-pro-5-1 {
+  @media (max-width: 1440px) {
+    .iphone-16-pro-5-1 {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .iphone-16-pro-5-1 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  
